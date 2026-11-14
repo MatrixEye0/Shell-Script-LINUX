@@ -1,4 +1,4 @@
-clone_repo_in_folder() {
+cloneRepo() {
     local folder_name="Image-Editor-CLONE"
     
     # 1. Folder create karein
@@ -13,7 +13,7 @@ clone_repo_in_folder() {
     echo "Done! Repository cloned inside '$folder_name'."
 }
 
-clone_repo_in_folder
+cloneRepo
 
 # package(){
 #     sudo apt-get install express
